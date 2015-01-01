@@ -1,0 +1,11 @@
+{
+  "name": "PeerPad"
+, "dependencies": {
+    "r-edit": "*"
+  , "smokesignal": "*"
+  }
+, "main": "index.html"
+, "window": {
+    "toolbar": false
+  }
+}
