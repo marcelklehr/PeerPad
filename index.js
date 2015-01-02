@@ -1,6 +1,9 @@
 var smoke = require('smokesignal')
   , REdit = require('r-edit')
 
+// Fix r-edit
+global.Event = window.Event
+
 var textarea = document.getElementById('text')
 var r = REdit()
 r.wrap(textarea)
